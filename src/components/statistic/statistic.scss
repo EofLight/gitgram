@@ -1,0 +1,60 @@
+.c-statistic {
+  display: inline-flex;
+  align-items: center;
+  color: #24292E;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 0.375rem;
+
+  .forks,
+  .stars,
+  .forks__content-wrapper,
+  .stars__content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slot {
+    padding: 0.3125rem 0.75rem;
+    box-shadow: 0px 1px 0px 0px rgba(27, 31, 35, 0.12) inset;
+    box-shadow: 0px -1px 0px 0px rgba(27, 31, 35, 0.12) inset;
+
+    &__icon {
+      width: 1rem;
+      height: 1rem;
+      margin-right: 0.25rem;
+      color: #586069;
+    }
+  }
+
+  .stars {
+    cursor: pointer;
+
+    &__content-wrapper {
+      background-color: rgba(250, 251, 252, 1);
+      border-right: 1px solid rgba(27, 31, 35, 0.15);
+    }
+
+    &:hover {
+      .slot__icon {
+        color: #31AE54;
+      }
+    }
+  }
+
+  .forks {
+    cursor: pointer;
+
+    &__content-wrapper {
+      background-color: rgba(250, 251, 252, 1);
+      border-right: 1px solid rgba(27, 31, 35, 0.15);
+      border-left: 1px solid rgba(27, 31, 35, 0.15);
+    }
+
+    &:hover {
+      .slot__icon {
+        color: #31AE54;
+      }
+    }
+  }
+}

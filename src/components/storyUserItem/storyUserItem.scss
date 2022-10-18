@@ -1,0 +1,23 @@
+.avatar {
+  width: 5.75rem;
+  height: 5.75rem;
+  border-radius: 50%;
+  border: 2px solid rgba(166, 50, 141, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  &__img {
+    width: 5rem;
+    height: 5rem;
+    min-width: 0;
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.username {
+  margin-top: 0.625rem;
+}

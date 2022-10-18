@@ -1,0 +1,26 @@
+.c-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & a {
+    display: inline-block;
+  }
+}
+
+.profile-icon {
+  margin: 0 1.5rem;
+
+  &__image {
+    width: 2.3125rem;
+    height: 2.3125rem;
+    border-radius: 50%;
+  }
+}
+
+.home-icon,
+.signOut-icon {
+  color: #292929;
+  width: 2rem;
+  height: 2rem;
+}

@@ -1,0 +1,43 @@
+.c-placeholder{
+  .placeholder {
+
+    &__top {
+      height: 136px;
+      width: 100%;
+      background: #DEDEDE;
+      border-radius: 4px;
+      margin-bottom: 22px;
+    }
+
+    &__item {
+      margin-bottom: 18px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    
+    &__p1 {
+      height: 14px;
+      width: 70%;
+      background: #DEDEDE;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+
+    &__p2 {
+      height: 14px;
+      width: 80%;
+      background: #DEDEDE;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+    
+    &__p3 {
+      height: 14px;
+      width: 60%;
+      background: #DEDEDE;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+  }
+}

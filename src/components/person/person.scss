@@ -1,0 +1,28 @@
+.c-person {
+	display: flex;
+	align-items: center;
+
+	.profile-link {
+		margin-right: 0.875rem;
+		display: flex;
+		align-items: center;
+
+		&__avatar {
+			display: inline-block; 
+			width: 2.75rem;
+			height: 2.75rem;
+			border-radius: 50%;
+		}
+	}
+
+	.person-info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		&__username {
+			font-size: 18px;
+			font-weight: bold;
+		}
+	}
+}
